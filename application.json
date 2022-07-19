@@ -10,6 +10,12 @@
   "unreadCommentThreads": 0,
   "color": "#EAEDFB",
   "icon": "bird",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
