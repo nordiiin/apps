@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 1320,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -444,47 +444,39 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Button1",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "displayName": "Button",
-              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 3,
-              "bottomRow": 7,
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+              "topRow": 27,
+              "bottomRow": 39,
               "parentRowSpace": 10,
-              "type": "BUTTON_WIDGET",
+              "type": "IMAGE_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 19.8125,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 28,
+              "imageShape": "RECTANGLE",
+              "leftColumn": 34,
               "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
                 {
                   "key": "borderRadius"
                 }
               ],
-              "text": "Submit",
-              "isDisabled": false,
-              "key": "9zhw6n4tgf",
+              "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+              "key": "cymlttdixv",
+              "image": "",
               "isDeprecated": false,
-              "rightColumn": 44,
-              "isDefaultClickDisabled": true,
-              "widgetId": "qqfe271ymc",
+              "rightColumn": 46,
+              "objectFit": "contain",
+              "widgetId": "rill1t23d5",
               "isVisible": true,
-              "recaptchaType": "V3",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "buttonVariant": "PRIMARY",
-              "placement": "CENTER"
+              "enableRotation": false
             }
           ]
         },
